@@ -1,0 +1,1 @@
+FOR /F "tokens=*" %%G IN ('DIR /B /AD /S _NCrunch_*') DO RMDIR /S /Q "%%G"

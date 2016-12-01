@@ -1,0 +1,1 @@
+FOR /F "tokens=*" %%G IN ('DIR /B /AD /S _ReSharper.Caches') DO RMDIR /S /Q "%%G"
