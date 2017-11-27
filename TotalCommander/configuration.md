@@ -11,6 +11,14 @@ Configuration -> Options -> Edit/View
 - Editor for F4: `"C:\Program Files (x86)\Notepad++\notepad++.exe" "%1"`
 
 
+## Reverse History
+Using Alt + Down you can open the history which has the last visited folder at the bottom and the oldest at the top. To reverse this order, you have to update the `wincmd.ini` yourself:
+
+```
+[Configuration]
+ReverseHistory=1
+```
+
 ## Button bar
 Configuration -> Button Bar. Here i've added a few buttons. This button configuration is saved as `DEFAULT.BAR`
 
