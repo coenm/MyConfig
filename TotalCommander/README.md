@@ -50,3 +50,63 @@ Configuration -> Button Bar. Here i've added a few buttons. This button configur
 | Start Path 	|                             	|
 | Icon file  	| `C:\Windows\System32\cmd.exe` |
 | Tooltip    	| Command                     	|
+
+
+### Tortoise SVN commands
+#### SVN Log
+| Option     	| Value                       	                                |
+|------------	|-------------------------------------------------------------- |
+| Command    	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe`           |
+| Parameters 	| `/command:log /path:"%P%N"`                                   |
+| Start Path 	| `%P`                        	                                |
+| Icon file  	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe` (icon 17) |
+| Tooltip    	| SVN Log                     	                                |
+
+#### SVN Update
+| Option     	| Value                       	                                |
+|------------	|-------------------------------------------------------------- |
+| Command    	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe`           |
+| Parameters 	| `/command:update /path:"%P%N"`                                |
+| Start Path 	| `%P`                        	                                |
+| Icon file  	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe` (icon 3)  |
+| Tooltip    	| SVN Update                  	                                |
+
+
+#### SVN Update
+| Option     	| Value                       	                                |
+|------------	|-------------------------------------------------------------- |
+| Command    	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe`           |
+| Parameters 	| `/command:update /path:"%P%N"`                                |
+| Start Path 	| `%P`                        	                                |
+| Icon file  	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe` (icon 3)  |
+| Tooltip    	| SVN Update                  	                                |
+
+
+#### SVN Commit
+| Option     	| Value                       	                                |
+|------------	|-------------------------------------------------------------- |
+| Command    	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe`           |
+| Parameters 	| `/command:commit /path:"%P%N"`                                |
+| Start Path 	| `%P`                        	                                |
+| Icon file  	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe` (icon 4)  |
+| Tooltip    	| SVN Commit                  	                                |
+
+
+#### SVN Revert
+| Option     	| Value                       	                                |
+|------------	|-------------------------------------------------------------- |
+| Command    	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe`           |
+| Parameters 	| `/command:revert /path:"%P%N"`                                |
+| Start Path 	| `%P`                        	                                |
+| Icon file  	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe` (icon 6)  |
+| Tooltip    	| SVN Revert                  	                                |
+
+
+#### SVN Cleanup
+| Option     	| Value                       	                                |
+|------------	|-------------------------------------------------------------- |
+| Command    	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe`           |
+| Parameters 	| `/command:cleanup /path:"%P%N"`                               |
+| Start Path 	| `%P`                        	                                |
+| Icon file  	| `C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe` (icon 7)  |
+| Tooltip    	| SVN Cleanup                  	                                |
