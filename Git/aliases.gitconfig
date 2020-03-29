@@ -2,6 +2,7 @@
 	clog = log --pretty=oneline --abbrev-commit --graph --decorate
 	last = log -1 HEAD
 	unstage = reset HEAD --
+	cc = clear-compiled
 ;
 ;
 ; Add this file to git config by adding 
