@@ -1,0 +1,3 @@
+[include]
+	path = aliases.gitconfig
+	path = beyondcompare.gitconfig

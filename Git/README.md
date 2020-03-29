@@ -12,15 +12,3 @@ To use the aliases, you can copy the aliases to one of the git config files (glo
 ## Custom commands
 
 To use the custom commands, you have to make sure this directory is included in the PATH environment variable.
-
-
-## Linux
-```
-PATH=$PATH:$HOME/bin
-```
-
-## Windows
-```
-set PATH=%PATH%;C:\your\path\here\
-set PATH=%PATH%;%CD%
-```
