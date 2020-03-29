@@ -1,12 +1,13 @@
 # Git config
 
-To use the aliases, you can copy the aliases to one of the git config files (global, user, repository). You can also 'include' the `aliases.gitconfig` file in one of the other configs.
 
+This folder contains some git config snippets and custom commands. To use the configs, just copy them to your own configuration (global, user, or repository scope). 
+You can also 'include' the config files  (ie `aliases.gitconfig`) in one of the other configs.
 
 ```
-; Add this file to git config by adding 
 [include]
     path = d:/dir/to/this/file/aliases.gitconfig
+    path = d:/dir/to/this/file/beyondcompare.gitconfig
 ```
 
 ## Custom commands
