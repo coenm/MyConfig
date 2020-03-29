@@ -1,0 +1,9 @@
+[alias]
+	clog = log --pretty=oneline --abbrev-commit --graph --decorate
+	last = log -1 HEAD
+	unstage = reset HEAD --
+;
+;
+; Add this file to git config by adding 
+;[include]
+;	path = <path to this repo>/aliases.gitconfig
