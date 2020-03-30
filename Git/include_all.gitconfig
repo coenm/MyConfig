@@ -1,3 +1,7 @@
 [include]
+	path = gitconfigs/user.personal.gitconfig
 	path = gitconfigs/aliases.gitconfig
 	path = gitconfigs/diff.gitconfig
+
+[includeIf "gitdir:Work/"]
+	path = gitconfigs/user.work.gitconfig
