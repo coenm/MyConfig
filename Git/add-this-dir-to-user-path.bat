@@ -17,6 +17,5 @@ REM setx /M path "%path%;%directory_batchfile%"
 REM set path permanently for current user
 setx path "%path%;%directory_batchfile%"
 echo %path% > %directory_batchfile%\path2.backup
-11
 echo Done. Presse enter to exit.
 pause
