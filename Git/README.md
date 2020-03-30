@@ -7,7 +7,7 @@ You can also 'include' the config files  (ie `aliases.gitconfig`) in one of the 
 ```
 [include]
     path = d:/dir/to/this/file/aliases.gitconfig
-    path = d:/dir/to/this/file/beyondcompare.gitconfig
+    path = d:/dir/to/this/file/diff.gitconfig
 ```
 
 ## Custom commands

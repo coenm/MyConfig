@@ -1,9 +1,9 @@
-[diff]
-	tool = vsdiffmerge
+# [diff]
+#	tool = vsdiffmerge
 [difftool]
 	prompt = true
-[merge]
-	tool = vsdiffmerge
+# [merge]
+#	tool = vsdiffmerge
 [mergetool]
 	prompt = true
 
