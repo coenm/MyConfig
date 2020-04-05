@@ -33,11 +33,11 @@ done
 
 # check if we are inside a git repository;
 if currentBranch=$(git symbolic-ref --short -q HEAD 2>/dev/null)
-then    
-	echo On branch "$currentBranch"
+then
+    echo On branch "$currentBranch"
 else
-	echo "This script only works in a git repository."
-	exit 1;
+    echo "This script only works in a git repository."
+    exit 1;
 fi
 
 
