@@ -14,11 +14,9 @@
 
 ## Installation
 
-
 In order to use these scripts as new subcommands with git, they need to be available in your PATH.
 
-
-=========
+## Commands
 
 * `git activity` -> Show the recent activity on each ref
 * `git filesize-history` -> Show how the filesize changed for a given PATH
