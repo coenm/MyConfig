@@ -20,12 +20,6 @@ REMOTE=`git config --get remote.origin.url`
 USERNAME=`git config --get user.name`
 EMAIL=`git config --get user.email`
 
-echo "Aap"
-echo "$EMAIL"
-echo "$USERNAME"
-echo "$REMOTE"
-exit 1
-
 checkEmailUsername() {
   if [[ "$EMAIL" != "$1" ]]
   then
