@@ -295,3 +295,4 @@ __pycache__/
 #
 *.gitconfig.local
 *.local.gitconfig
+Git/git-hooks/pre-commit

@@ -1,3 +1,7 @@
+#[core]
+#	# this should be an absolute path
+#	hooksPath = ./git-hooks/
+
 [include]
 	path = gitconfigs/user.personal.gitconfig
 	path = gitconfigs/aliases.gitconfig
