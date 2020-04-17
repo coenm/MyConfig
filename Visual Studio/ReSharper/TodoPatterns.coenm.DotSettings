@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=8FB3C653B070F94E9BB15B43B9CEC1EC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=8FB3C653B070F94E9BB15B43B9CEC1EC/Color/@EntryValue">WindowText</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=8FB3C653B070F94E9BB15B43B9CEC1EC/MatchComments/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=8FB3C653B070F94E9BB15B43B9CEC1EC/Name/@EntryValue">AssignedToMe</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=8FB3C653B070F94E9BB15B43B9CEC1EC/Pattern/@EntryValue">(?&lt;=\W|^)(?&lt;TAG&gt;COENM)(\W|$)(.*)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/Todo/TodoPatterns/=8FB3C653B070F94E9BB15B43B9CEC1EC/TodoIconStyle/@EntryValue">Warning</s:String>	
+</wpf:ResourceDictionary>
