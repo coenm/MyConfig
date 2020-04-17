@@ -1,0 +1,53 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Shortcut/@EntryValue">fake</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Description/@EntryValue">Create a fake/stub with FakeItEasy</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Text/@EntryValue">var $var$ = FakeItEasy.A.Fake&lt;$interface$&gt;();$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Categories/=FakeItEasy/@EntryIndexedValue">FakeItEasy</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*Test.cs|*Test*.cs</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Field/=var/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Field/=var/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Field/=interface/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B5B40F6FCEC4BE4989C82834C9ECE603/Field/=interface/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Shortcut/@EntryValue">mhh1</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Description/@EntryValue">Assert call did happen once (FakeItEasy)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Text/@EntryValue">FakeItEasy.A.CallTo(() =&gt; $methodCall$).MustHaveHappenedOnceExactly();$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Categories/=FakeItEasy/@EntryIndexedValue">FakeItEasy</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Categories/=Test/@EntryIndexedValue">Test</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*Test.cs|*Test*.cs</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Field/=methodCall/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C1D9DBAC77CF7C4BAB839C4F0D746466/Field/=methodCall/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Shortcut/@EntryValue">mnhh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Description/@EntryValue">Assert call did not happen (FakeItEasy)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Text/@EntryValue">FakeItEasy.A.CallTo(() =&gt; $methodCall$).MustNotHaveHappened();$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Categories/=FakeItEasy/@EntryIndexedValue">FakeItEasy</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Categories/=Test/@EntryIndexedValue">Test</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*Test.cs|*Test*.cs</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Field/=methodCall/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Field/=methodCall/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
