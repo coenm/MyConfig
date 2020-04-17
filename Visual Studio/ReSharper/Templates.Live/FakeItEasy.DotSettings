@@ -50,4 +50,19 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*Test.cs|*Test*.cs</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Field/=methodCall/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Field/=methodCall/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=31BCCA822A75674B84F73E17B361168B/Field/=methodCall/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Shortcut/@EntryValue">sm</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Description/@EntryValue">Stub method in FakeItEasy</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Text/@EntryValue">FakeItEasy.A.CallTo(() =&gt; $methodCall$).Returns($result$);$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Categories/=FakeItEasy/@EntryIndexedValue">FakeItEasy</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/Type/@EntryValue">InCSharpTypeMember</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Scope/=B68999B9D6B43E47A02B22C12A54C3CC/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Field/=methodCall/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Field/=methodCall/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Field/=result/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9916A5CFF999C74795F5EE803595F86A/Field/=result/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
