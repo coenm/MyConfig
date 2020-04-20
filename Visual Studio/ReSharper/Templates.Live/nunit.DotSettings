@@ -3,7 +3,7 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92D580450CAA1547895B19158595FFAC/Shortcut/@EntryValue">atest</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92D580450CAA1547895B19158595FFAC/Description/@EntryValue">Create (async Task) test method with AAA</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=92D580450CAA1547895B19158595FFAC/Text/@EntryValue">[NUnit.Framework.Test]&#xD;
-public async Task $Method$()&#xD;
+public async System.Threading.Tasks.Task $Method$()&#xD;
 {&#xD;
     // arrange&#xD;
 	$END$&#xD;
