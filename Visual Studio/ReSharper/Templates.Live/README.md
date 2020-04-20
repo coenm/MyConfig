@@ -31,5 +31,13 @@ FakeItEasy.A.CallTo(() => $methodCall$).Returns($result$);$END$
 
 Verify if a call happened (or not happened). Use the shortcuts `mhh1` (must have happened once), and `mnhh` (must not have happend).
 
+```csharp
+// mhh1
+FakeItEasy.A.CallTo(() => $methodCall$).MustHaveHappenedOnceExactly();$END$
+
+// mnhh
+FakeItEasy.A.CallTo(() => $methodCall$).MustNotHaveHappened();$END$
+```
+
 
 
