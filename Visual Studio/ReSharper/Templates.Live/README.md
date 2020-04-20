@@ -39,5 +39,32 @@ FakeItEasy.A.CallTo(() => $methodCall$).MustHaveHappenedOnceExactly();$END$
 FakeItEasy.A.CallTo(() => $methodCall$).MustNotHaveHappened();$END$
 ```
 
+## NUnit.DotSettings
 
+Although I prefer xUnit, I also like to have two NUnit snippits (only available in test files) to create tests (`test` and `atest` where the a stands for `async`).
 
+```csharp
+// test
+[NUnit.Framework.Test]
+public void $Method$()
+{
+    // arrange
+    $END$
+
+    // act
+
+    // assert
+}
+
+// atest
+[NUnit.Framework.Test]
+public async Task $Method$()
+{
+    // arrange
+    $END$
+
+    // act
+
+    // assert
+}
+```
