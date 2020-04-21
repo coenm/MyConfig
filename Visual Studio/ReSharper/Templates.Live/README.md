@@ -39,6 +39,21 @@ FakeItEasy.A.CallTo(() => $methodCall$).MustHaveHappenedOnceExactly();$END$
 FakeItEasy.A.CallTo(() => $methodCall$).MustNotHaveHappened();$END$
 ```
 
+## Guid.DotSettings
+
+Generate a GUID value as string. Use the shortcut `nguid`.
+
+```csharp
+$GUID$
+```
+
+Create a guid varibale and generate the GUID value. Use the shortcut `varguid`.
+
+```csharp
+var $guid$ = new System.Guid("$GUID$");$END$
+```
+
+
 ## NUnit.DotSettings
 
 Although I prefer xUnit, I also like to have two NUnit snippits (only available in test files) to create tests (`test` and `atest` where the a stands for `async`).
