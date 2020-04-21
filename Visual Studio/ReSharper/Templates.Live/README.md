@@ -2,7 +2,7 @@
 
 ## ArrangeActAssert.DotSettings
 
-Snippet I use in unittests. Shortcut is `aaa` Available in cs files named `*Test*.cs`.
+Snippet I use in unittests. Shortcut is `aaa` Available in cs files named `*Test.cs|*Test*.cs`.
 
 ```csharp
 // arrange
@@ -15,7 +15,7 @@ $END$
 
 ## FakeItEasy.DotSettings
 
-FakeItEasy is a mocking library. This file contains a few templates. All of these are only available in test files (ie. filename like `*Test*.cs`).
+FakeItEasy is a mocking library. This file contains a few templates. All of these are only available in test files (see filname filter above).
 
 Creating a fake/stub. Use the shortcut `fake`.
 
@@ -58,6 +58,36 @@ public void $Method$()
 
 // atest
 [NUnit.Framework.Test]
+public async Task $Method$()
+{
+    // arrange
+    $END$
+
+    // act
+
+    // assert
+}
+```
+
+## xUnit.DotSettings
+
+For xUnit the same two snippits are created (`fact` and `afact` where the a stands for `async`). I didn't create ones for theories because I always end up with theories after refactoring facts.
+
+```csharp
+// fact
+[Xunit.Fact]
+public void $Method$()
+{
+    // arrange
+    $END$
+
+    // act
+
+    // assert
+}
+
+// afact
+[Xunit.Fact]
 public async Task $Method$()
 {
     // arrange
