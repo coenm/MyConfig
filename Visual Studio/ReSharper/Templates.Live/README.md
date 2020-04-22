@@ -20,18 +20,21 @@ FakeItEasy is a mocking library. This file contains a few templates. All of thes
 Creating a fake/stub. Use the shortcut `fake`.
 
 ```csharp
-var $var$ = FakeItEasy.A.Fake<$interface$>();$END$
+var $name$ = FakeItEasy.A.Fake<$interface$>();$END$
 ```
 
-Setup a call to a method. Use the shortcut `sm` (setup method).
+Setup a call to a method. Use the shortcut `smr` (setup method result).
 
 ```csharp
-FakeItEasy.A.CallTo(() => $methodCall$).Returns($result$);$END$
+FakeItEasy.A.CallTo(() => $fake$.$method$).Returns($result$);$END$
 ```
 
-Verify if a call happened (or not happened). Use the shortcuts `mhh1` (must have happened once), and `mnhh` (must not have happend).
+Verify if a call happened (or not happened). Use the shortcuts `mhh` (must have happened), `mhh1` (must have happened once), and `mnhh` (must not have happend).
 
 ```csharp
+// mhh
+FakeItEasy.A.CallTo(() => $methodCall$).MustHaveHappened();$END$
+
 // mhh1
 FakeItEasy.A.CallTo(() => $methodCall$).MustHaveHappenedOnceExactly();$END$
 
