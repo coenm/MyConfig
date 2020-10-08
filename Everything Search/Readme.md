@@ -16,12 +16,15 @@ Tools -> Options -> Indexes -> Exclude
 ### Exclude list
 
 - C:\Temp
+- D:\Projects\**\obj
+- C:\$Recycle.Bin
+- D:\$Recycle.Bin
 - _ReSharper.Caches
+- _NCrunch_*
 - .svn
 - .git
 - .tmp.drivedownload
-- D:\Projects\**\obj
 - $Recycle.Bin
-- C:\$Recycle.Bin
-- D:\$Recycle.Bin
+
+
 
