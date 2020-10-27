@@ -2,7 +2,9 @@
 	clog = log --pretty=oneline --abbrev-commit --graph --decorate
 	last = log -1 HEAD
 	unstage = reset HEAD --
-	cc = clear-compiled
+	cc = clear-compiled # custom command (removes obj/ and bin/  directories)
+	git = !exec git # Allow for accidental "git git" (http://caiustheory.com/git-git-git-git-git/)
+	
 ;
 ;
 ; Add this file to git config by adding 
