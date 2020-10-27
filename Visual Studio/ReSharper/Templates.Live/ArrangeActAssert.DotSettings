@@ -10,7 +10,7 @@ $END$&#xD;
 // assert</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=372B45741D184B4E979C7A36131FE8A1/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=372B45741D184B4E979C7A36131FE8A1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=372B45741D184B4E979C7A36131FE8A1/IsDisabled/@EntryValue">True</s:Boolean>
+	
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=372B45741D184B4E979C7A36131FE8A1/Categories/=Test/@EntryIndexedValue">Test</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=372B45741D184B4E979C7A36131FE8A1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=372B45741D184B4E979C7A36131FE8A1/Scope/=2C285F182AC98D44B0B4F29D4D2149EC/@KeyIndexDefined">True</s:Boolean>
