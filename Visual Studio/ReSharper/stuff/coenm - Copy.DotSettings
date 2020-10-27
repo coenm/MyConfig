@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/AsyncConverter/AsyncConverterConfigureAwait/ConfigureAwaitIgnoreAttributeTypes/=_002ATest/@EntryIndexedValue">*Test</s:String>
+	<s:String x:Key="/Default/CodeInspection/AsyncConverter/AsyncConverterConfigureAwait/ConfigureAwaitIgnoreAttributeTypes/=_002ATests/@EntryIndexedValue">*Tests</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/TestCopProjectStrategy/@EntryValue">TestProjectHasSameNamespaceAsCodeProject</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/TestingAttributeText/@EntryValue">TestClass,TestMethod,TestFixture,Test,Fact,Theory</s:String>
+	<s:String x:Key="/Default/CodeInspection/TestFileAnalysis/TestProjectToCodeProjectNameSpaceRegEx/@EntryValue">^(.*?)\.?Tests?$</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=StyleCop_002ESA1600/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=StyleCop_002ESA1601/@EntryIndexedValue">DO_NOT_SHOW</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=ClassShouldBePublic/@EntryIndexedValue">SUGGESTION</s:String>
+	<s:String x:Key="/Default/CodeInspection/Highlighting/InspectionSeverities/=TestClassNameSuffixWarning/@EntryIndexedValue">HINT</s:String>
+</wpf:ResourceDictionary>

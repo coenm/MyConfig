@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Shortcut/@EntryValue">innerfactory</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Description/@EntryValue">Create factory as inner class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Text/@EntryValue">public class Factory&#xD;
+{&#xD;
+	public virtual $name$ Create()&#xD;
+	{&#xD;
+		return new $name$();&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Field/=name/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Field/=name/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=06A431C8E13A0B439CFF8A87C44762C6/Field/=name/Order/@EntryValue">0</s:Int64></wpf:ResourceDictionary>

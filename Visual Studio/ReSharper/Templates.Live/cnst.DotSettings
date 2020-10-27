@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Shortcut/@EntryValue">cnst</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Description/@EntryValue">Code snippet for declaration public constant</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Text/@EntryValue">public const $type$ $constName$ = $value$;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Categories/=Imported_002001_002E12_002E2017/@EntryIndexedValue">Imported 01.12.2017</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Categories/=My_0020Code_0020Live_0020Templates/@EntryIndexedValue">My Code Live Templates</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Field/=type/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Field/=type/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Field/=constName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Field/=constName/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Field/=value/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FDAFAD3DEAF36B469B5606A7AB24DE8D/Field/=value/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
