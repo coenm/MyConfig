@@ -2,9 +2,14 @@
 	clog = log --pretty=oneline --abbrev-commit --graph --decorate
 	last = log -1 HEAD
 	unstage = reset HEAD --
+	publish = !git push --set-upstream origin $(git branch --show-current) # push and set upstream
 	cc = clear-compiled # custom command (removes obj/ and bin/  directories)
 	git = !exec git # Allow for accidental "git git" (http://caiustheory.com/git-git-git-git-git/)
 	
+	# handling some typo's
+	statsu = status
+	statsus = status
+	staus = status
 ;
 ;
 ; Add this file to git config by adding 
