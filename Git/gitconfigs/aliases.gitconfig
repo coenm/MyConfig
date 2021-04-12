@@ -10,6 +10,11 @@
 	statsu = status
 	statsus = status
 	staus = status
+
+	pul = pull
+
+	branach = branch
+	bramch = branch
 ;
 ;
 ; Add this file to git config by adding 
