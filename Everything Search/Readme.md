@@ -42,4 +42,7 @@ Usage: `git: cc: *.cs`
 - search: `!bin\ !obj\`
 - macro: `cc`
 
-
+# visual studio extensions
+- name: `Visual studio extensions`
+- search: `ext:cs;csproj;sln;editorconfig`
+- macro: `vsext`
