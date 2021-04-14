@@ -30,7 +30,16 @@ $Recycle.Bin
 
 ### Bookmarks
 
+Usage: `git: cc: *.cs`
+
 # Search in git repo
-- `"C:\Users\coenm\source\" !.nuget !.sonarlint !.tmp`
+- name: `git`
+- search: `"C:\Users\coenm\source\" !.nuget !.sonarlint !.tmp`
 - macro: `git`
+
+# Search in git repo
+- name: `Exclude compiled`
+- search: `!bin\ !obj\`
+- macro: `cc`
+
 
