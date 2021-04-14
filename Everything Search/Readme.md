@@ -37,12 +37,12 @@ Usage: `git: cc: vsext: abcdef`
 - search: `"C:\Users\coenm\source\" !.nuget !.sonarlint !.tmp`
 - macro: `git`
 
-# Search in git repo
+# Exclude compiled
 - name: `Exclude compiled`
 - search: `!bin\ !obj\`
 - macro: `cc`
 
 # visual studio extensions
 - name: `Visual studio extensions`
-- search: `ext:cs;csproj;sln;editorconfig`
+- search: `ext:cs;csproj;sln;editorconfig;md;config;DotSettings`
 - macro: `vsext`
