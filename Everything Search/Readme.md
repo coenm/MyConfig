@@ -28,4 +28,9 @@ _NCrunch_*
 $Recycle.Bin
 ```
 
+### Bookmarks
+
+# Search in git repo
+- `"C:\Users\coenm\source\" !.nuget !.sonarlint !.tmp`
+- macro: `git`
 
