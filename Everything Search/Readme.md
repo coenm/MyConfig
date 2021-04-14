@@ -26,6 +26,7 @@ _NCrunch_*
 .git
 .tmp.drivedownload
 $Recycle.Bin
+%userprofile%\AppData\Local\Microsoft\Edge\User Data\Default
 ```
 
 ### Bookmarks
