@@ -30,7 +30,7 @@ $Recycle.Bin
 
 ### Bookmarks
 
-Usage: `git: cc: *.cs`
+Usage: `git: cc: vsext: abcdef`
 
 # Search in git repo
 - name: `git`
