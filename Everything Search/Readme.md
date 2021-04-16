@@ -27,6 +27,7 @@ _NCrunch_*
 .tmp.drivedownload
 $Recycle.Bin
 %userprofile%\AppData
+%SystemRoot%\Prefetch
 
 ```
 
