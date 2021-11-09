@@ -1,6 +1,7 @@
-#[core]
+[core]
 #	# this should be an absolute path
 #	hooksPath = ./git-hooks/
+	longpaths = true
 
 [include]
 	path = gitconfigs/user.personal.gitconfig
