@@ -5,7 +5,12 @@
 	publish = !git push --set-upstream origin $(git branch --show-current) # push and set upstream
 	cc = clear-compiled # custom command (removes obj/ and bin/  directories)
 	git = !exec git # Allow for accidental "git git" (http://caiustheory.com/git-git-git-git-git/)
-	
+
+	# Cleaning up local git branches deleted on a remote
+	# source: https://www.erikschierboom.com/2020/02/17/cleaning-up-local-git-branches-deleted-on-a-remote/
+	gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D"
+	list-gone = ! "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' "
+
 	# handling some typo's
 	statsu = status
 	statsus = status
