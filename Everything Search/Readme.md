@@ -28,6 +28,7 @@ _NCrunch_*
 $Recycle.Bin
 %userprofile%\AppData
 %SystemRoot%\Prefetch
+C:\Windows\Installer
 
 ```
 
